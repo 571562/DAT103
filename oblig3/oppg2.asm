@@ -67,7 +67,7 @@ skrivsiffer:
 	push ecx
 	push edx
 
-	cmp ecx, $10
+	cmp ecx, 10
 	jb eitsiffer
 	mov ebx, ecx
 	mov ecx, 1
